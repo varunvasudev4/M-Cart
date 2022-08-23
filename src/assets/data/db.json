@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Red Men's Tshirt",
+      "categoryId": "1",
+      "Description": "Men's T-Shirt",
+      "price": "949",
+      "isAvailable": "true",
+      "image": "https://www.beyoung.in/api/cache/catalog/products/plain_new_update_images_2_5_2022/red_plain_t-shirt_base_700x933.jpg",
+      "rating": "4.2",
+      "review": "3200",
+      "vendorName": "Levies",
+      "warranty": "2"
+    },
+    {
+      "id": 2,
+      "productName": "Men's Mult-Color T-Shirt",
+      "categoryId": 1,
+      "Description": "Men's T-Shirt",
+      "price": 760,
+      "isAvailable": true,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.-bmNe4uPz9sKU8Ul9SVEbQHaJ4&pid=Api&P=0",
+      "rating": 4.2,
+      "review": 300,
+      "vendorName": "Levies",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "productName": "Solimo Men's Regular Polo T-Shirt",
+      "categoryId": 1,
+      "Description": "Regular Polo Shirt",
+      "price": 329,
+      "isAvailable": false,
+      "image": "https://img.mensxp.com/media/shop/catalog/products/Y/648902/yellow-cotton-t-shirt-default.jpg",
+      "rating": 4.5,
+      "review": 453,
+      "vendorName": "Solimo",
+      "warranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Scott International Men's Regular Fit T-Shirt (Pack of 3)",
+      "categoryId": 1,
+      "Description": "Men's Regular Fit T-Shirt",
+      "price": 466,
+      "isAvailable": true,
+      "image": "https://cdn.shopify.com/s/files/1/2802/6158/products/3x1_1024x1024.jpg?v=1611912204",
+      "rating": 4.5,
+      "review": 876,
+      "vendorName": "Scott International",
+      "warranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Samsung Galaxy M13 5g",
+      "categoryId": 2,
+      "Description": "Samsung Mobile",
+      "price": 15999,
+      "isAvailable": true,
+      "image": "data:image/jpeg;base64,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",
+      "rating": 4.5,
+      "review": 1876,
+      "vendorName": "Samsung",
+      "warranty": 3
+    },
+    {
+      "id": 6,
+      "productName": "Apple iPhone 13 Pro",
+      "categoryId": 2,
+      "Description": "Apple Mobile",
+      "price": 107900,
+      "isAvailable": true,
+      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.large.jpg",
+      "rating": 4.5,
+      "review": 15668,
+      "vendorName": "Apple",
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Nothing Phone 1",
+      "categoryId": 2,
+      "Description": "Nothing Mobile",
+      "price": 43000,
+      "isAvailable": true,
+      "image": "https://www.teknoburada.net/wp-content/uploads/2022/07/Nothing-Phone-1-1-2.jpg",
+      "rating": 3.9,
+      "review": 1566,
+      "vendorName": "MyG",
+      "warranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "Macbook Pro",
+      "categoryId": 3,
+      "Description": "Apple Laptop",
+      "price": 132990,
+      "isAvailable": false,
+      "image": "https://www.itresale.co.uk/wp-content/uploads/2020/12/IMG_4072-2048x1984.jpg",
+      "rating": 4.6,
+      "review": 16757,
+      "vendorName": "Reliance Digital",
+      "warranty": 2
+    },
+    {
+      "id": 10,
+      "productName": "Nothing Ear 1",
+      "categoryId": 4,
+      "Description": "Nothing TWS",
+      "price": 5499,
+      "isAvailable": true,
+      "image": "https://tse2.mm.bing.net/th?id=OIP.JTp6NclXLjfkXQDKWQdycQHaHa&pid=Api&P=0",
+      "rating": 4.6,
+      "review": 5668,
+      "vendorName": "Nothing",
+      "warranty": 1
+    },
+    {
+      "id": 11,
+      "productName": "Sapiens:Brief History of Human",
+      "categoryId": 5,
+      "Description": "Yuval Noah Harari Book",
+      "price": 429,
+      "isAvailable": true,
+      "image": "https://tse1.mm.bing.net/th?id=OIP.rSI9S7_sdRvDyTbzfFgYJQHaJ4&pid=Api&P=0",
+      "rating": 4.5,
+      "review": 14347,
+      "vendorName": "Book Stall",
+      "warranty": 1
+    },
+    {
+      "id": 12,
+      "productName": "Samsung Galaxy Watch Active2",
+      "categoryId": 6,
+      "Description": "Samsung Fitness",
+      "price": 14399,
+      "isAvailable": true,
+      "image": "https://d28i4xct2kl5lp.cloudfront.net/product_images/None_4a65419c-daf6-4a43-8e9e-ef1399aad156.jpg",
+      "rating": 4.5,
+      "review": 6576,
+      "vendorName": "Samsung",
+      "warranty": 1
+    }
+    
+  ]
+}
