@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { CartComponent } from '../cart/cart.component';
 import { ProductService } from '../services/product.service';
 
 @Component({
@@ -10,17 +11,24 @@ import { ProductService } from '../services/product.service';
 export class ViewProductComponent implements OnInit {
 
   product:any
+  quatity:any=1
+  pid:any
 
-
-  constructor(private ar:ActivatedRoute,private ps:ProductService) { 
+  constructor(private ar:ActivatedRoute,private ps:ProductService,private router:Router) { 
 
   }
 
   ngOnInit(): void {
     this.ar.params.subscribe((data:any)=>{
-     this.ps.viewProduct(data['id']).subscribe((item)=>
-     this.product=item)
+     this.pid=data['id']
     })
+     this.ps.viewProduct(this.pid).subscribe((item)=>{
+     this.product=item
+    })
+  }
+
+  goCart(){
+    this.router.navigateByUrl('products/cart/'+this.pid+"/"+this.quatity)
   }
 
 
