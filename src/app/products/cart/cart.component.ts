@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HeaderComponent } from 'src/app/site-layout/header/header.component';
 import { ProductService } from '../services/product.service';
 
@@ -10,7 +10,7 @@ import { ProductService } from '../services/product.service';
 })
 export class CartComponent implements OnInit {
 
-  constructor(private ar:ActivatedRoute,private ps:ProductService) { }
+  constructor(private ar:ActivatedRoute,private ps:ProductService,private router:Router) { }
 
   pid:any
   product:any
@@ -33,8 +33,6 @@ export class CartComponent implements OnInit {
       this.toarr()    
       this.totalprice()
     })
-
-    
   }
 
   saveCartData(){
@@ -70,8 +68,8 @@ export class CartComponent implements OnInit {
     this.saveCartData() 
     this.getCartData()
     this.cartArr=[]
-    this.toarr()    
-    
+    this.toarr()
+    this.totalprice()    
   }
 
   totalprice(){

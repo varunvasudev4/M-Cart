@@ -6,7 +6,7 @@
       "categoryId": "1",
       "Description": "Men's T-Shirt",
       "price": "949",
-      "isAvailable": "true",
+      "isAvailable": true,
       "image": "https://www.beyoung.in/api/cache/catalog/products/plain_new_update_images_2_5_2022/red_plain_t-shirt_base_700x933.jpg",
       "rating": "4.2",
       "review": "3200",
@@ -31,11 +31,11 @@
       "productName": "Solimo Men's Regular Polo T-Shirt",
       "categoryId": 1,
       "Description": "Regular Polo Shirt",
-      "price": 329,
-      "isAvailable": false,
+      "price": "349",
+      "isAvailable": true,
       "image": "https://img.mensxp.com/media/shop/catalog/products/Y/648902/yellow-cotton-t-shirt-default.jpg",
-      "rating": 4.5,
-      "review": 453,
+      "rating": "4.3",
+      "review": "560",
       "vendorName": "Solimo",
       "warranty": 1
     },
@@ -83,7 +83,7 @@
       "productName": "Nothing Phone 1",
       "categoryId": 2,
       "Description": "Nothing Mobile",
-      "price": 43000,
+      "price": "42999",
       "isAvailable": true,
       "image": "https://www.teknoburada.net/wp-content/uploads/2022/07/Nothing-Phone-1-1-2.jpg",
       "rating": 3.9,
@@ -135,7 +135,7 @@
       "productName": "Samsung Galaxy Watch Active2",
       "categoryId": 6,
       "Description": "Samsung Fitness",
-      "price": 14399,
+      "price": "14299",
       "isAvailable": true,
       "image": "https://d28i4xct2kl5lp.cloudfront.net/product_images/None_4a65419c-daf6-4a43-8e9e-ef1399aad156.jpg",
       "rating": 4.5,
@@ -143,6 +143,5 @@
       "vendorName": "Samsung",
       "warranty": 1
     }
-    
   ]
 }

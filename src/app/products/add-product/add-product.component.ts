@@ -36,7 +36,7 @@ export class AddProductComponent implements OnInit {
       categoryId: this.addProductForm.value.categoryId,
       Description: this.addProductForm.value.Description,
       price: this.addProductForm.value.price,
-      isAvailable:this.addProductForm.value.isAvailable,
+      isAvailable:this.addProductForm.value.isAvailable=='false'?false:true,
       image:this.addProductForm.value.image,
       rating:this.addProductForm.value.rating,
       review: this.addProductForm.value.review,

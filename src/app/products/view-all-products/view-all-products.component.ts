@@ -29,7 +29,7 @@ export class ViewAllProductsComponent implements OnInit {
   filter(category:any){
     this.filterCategory = this.productList.filter((item:any)=>{
       if(item.categoryId == category || category==''){
-        console.log(item);
+        //console.log(item);
         return item
       } 
     })

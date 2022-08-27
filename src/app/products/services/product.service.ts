@@ -30,7 +30,7 @@ export class ProductService {
     return this.http.delete("http://localhost:3000/products/"+productId)
   }
 
-  updateProduct(productData:any){
-    return this.http.patch("http://localhost:3000/products/",productData)
+  updateProduct(productData:any,id:any){
+    return this.http.put("http://localhost:3000/products/"+id,productData)
   }
 }
